@@ -43,7 +43,7 @@ public class BowlingGame {
 			}
 			
 		}
-		int i = 0;
+		i = 0;
 		for (; i < 10; ++i) {
 			if (next[i] == 2) {
 				ret += 10 + scores[i+1] + scores[i+2];
